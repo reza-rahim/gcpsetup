@@ -1,0 +1,16 @@
+# gcloud compute --project "central-beach-194106" ssh  --zone "us-east1-b" reza-kubeadm-1
+
+
+# Step 1
+./buildcluster.sh 
+
+# Step 2
+./installk8.sh
+
+#
+./startmaster.sh
+
+# get the tocken annd hash
+./startslave.sh
+
+# git clone https://github.com/RedisLabs/redis-enterprise-k8s-docs

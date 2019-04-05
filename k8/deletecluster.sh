@@ -1,6 +1,6 @@
 #!/bin/bash
 
-export count=3
+export count=4
 export type=reza-kubeadm
 
 for ((i=1; i<=$count; i++));

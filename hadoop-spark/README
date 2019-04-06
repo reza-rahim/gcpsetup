@@ -2,3 +2,17 @@
 
 
 # Step 1
+i./buildcluster.sh
+
+
+# Step 2
+./installhadoopspark.sh
+
+# Step 3
+./starthdfs.sh
+
+
+# Step 4
+./startspark.sh
+
+

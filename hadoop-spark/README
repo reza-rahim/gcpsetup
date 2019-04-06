@@ -9,10 +9,8 @@
 ./installhadoopspark.sh
 
 # Step 3
-./starthdfs.sh
+./startnamenode.sh
 
 
-# Step 4
-./startspark.sh
 
 

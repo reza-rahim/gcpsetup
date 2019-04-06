@@ -11,6 +11,7 @@
 # Step 3
 ./startnamenode.sh
 
-
+# Step 4
+./startslave.sh 
 
 

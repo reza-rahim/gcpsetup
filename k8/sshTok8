@@ -1,0 +1,1 @@
+gcloud compute --project "central-beach-194106" ssh  --zone "us-east1-b" reza-kubeadm-1

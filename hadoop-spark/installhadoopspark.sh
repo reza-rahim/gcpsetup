@@ -8,6 +8,3 @@ gcloud compute --project "central-beach-194106" ssh --command  'git clone https:
 gcloud compute --project "central-beach-194106" ssh --command  'sudo bash ./gcpsetup/hadoop-spark/install.sh'  --zone "us-east1-b" "$type-$i" &
 done
 
-cp gcpsetup/hadoop-spark/core-site.xml /opt/hadoop/etc/hadoop
-cp gcpsetup/hadoop-spark/hdfs-site.xml /opt/hadoop/etc/hadoop
-cp gcpsetup/hadoop-spark/spark-env.sh  /opt/spark/conf

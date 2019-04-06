@@ -14,3 +14,8 @@ JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
 HADOOP_HOME=/opt/hadoop
 SPARK_HOME=/opt/spark
 EOL
+
+cp gcpsetup/hadoop-spark/core-site.xml /opt/hadoop/etc/hadoop
+cp gcpsetup/hadoop-spark/hdfs-site.xml /opt/hadoop/etc/hadoop
+cp gcpsetup/hadoop-spark/spark-env.sh  /opt/spark/conf
+

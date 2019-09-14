@@ -15,7 +15,7 @@ spec:
       serviceAccount: nginx
       containers:
         - name: nginx-ingress-controller
-          image: dckreg:5000/nginx-ingress-controller:{{ nginx_ingress_controller_version }}
+          image: quay.io/kubernetes-ingress-controller/nginx-ingress-controller:0.25.0
           imagePullPolicy: Always
           readinessProbe:
             httpGet:
